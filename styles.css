@@ -63,7 +63,13 @@ body {
 }
 
 a { color: inherit; text-decoration: none; }
-button, input { font: inherit; color: inherit; }
+button, input {
+  font: inherit;
+  color: inherit;
+  -webkit-appearance: none;
+  appearance: none;
+  border-radius: 0;
+}
 .icon-svg { width: 13px; height: 13px; flex-shrink: 0; }
 
 ::selection {
@@ -427,8 +433,13 @@ html.has-intro .mag-grid.is-entered .mag-rule {
 
 .rate-input {
   width: 52px;
+  padding: 0;
+  margin: 0;
   border: 0;
   border-bottom: 1px solid var(--ink-dim);
+  border-radius: 0;
+  -webkit-appearance: none;
+  appearance: none;
   background: transparent;
   font-family: var(--font-mono);
   font-size: 12px;

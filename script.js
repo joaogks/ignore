@@ -468,26 +468,26 @@
             const viewW = size?.viewSize?.[0] || chart.getWidth();
             const viewH = size?.viewSize?.[1] || chart.getHeight();
             let x = point[0] + 14;
-            if (x + boxW + 6 > viewW) x = point[0] - boxW - 14;
-            x = Math.max(6, Math.min(viewW - boxW - 6, x));
+            if (x + boxW + 10 > viewW) x = point[0] - boxW - 14;
+            x = Math.max(8, Math.min(viewW - boxW - 10, x));
             let y = point[1] - boxH - 12;
-            if (y < 6) y = point[1] + 14;
-            y = Math.max(6, Math.min(viewH - boxH - 6, y));
+            if (y < 8) y = point[1] + 14;
+            y = Math.max(8, Math.min(viewH - boxH - 10, y));
             return [Math.round(x), Math.round(y)];
           },
           backgroundColor: PALETTE.tipBg,
           borderColor: PALETTE.tipBorder,
           borderWidth: 1,
           padding: [10, 12],
-          extraCssText: `box-shadow: ${PALETTE.tipShadow}; border-radius: 0;`,
+          extraCssText: `box-shadow: ${PALETTE.tipShadow}; border-radius: 0; max-width: calc(100% - 20px); white-space: normal; overflow-wrap: break-word; box-sizing: border-box;`,
           textStyle: { color: PALETTE.ink, fontSize: 12 },
           formatter: (params) => {
             const d = params?.data;
             if (!d || typeof d.costConverted !== "number") return "";
             const primaryCost = formatTaskCost(d.costConverted, currency);
             const secondaryCost = currency === "BRL" ? `Base USD: ${formatTaskCost(d.costUsd, "USD")}` : `Equiv. BRL: ${formatTaskCost(d.costUsd * state.rate, "BRL")}`;
-            const frontierBadge = d.isFrontier ? `<span style="display:inline-block;margin-left:8px;padding:1px 6px;border-radius:0;font-family:${MONO_FONT};font-size:10px;background:${PALETTE.paretoBg};color:${PALETTE.paretoText};border:1px solid ${PALETTE.paretoBorder};">Pareto</span>` : "";
-            return `<div style="min-width:190px;"><div style="display:flex;align-items:center;gap:7px;margin-bottom:6px;"><span style="width:8px;height:8px;border-radius:50%;background:${escapeHtml(d.swatchColor)};display:inline-block;flex-shrink:0;"></span><strong style="font-size:12.5px;color:${PALETTE.ink};">${escapeHtml(d.title)}</strong>${frontierBadge}</div><div style="font-family:${MONO_FONT};font-size:12px;color:${PALETTE.ink};margin-bottom:3px;">${d.score.toFixed(1)} pts · ${escapeHtml(primaryCost)}</div><div style="font-family:${MONO_FONT};font-size:10.5px;color:${PALETTE.grey};">Esforço ${escapeHtml(String(d.effort).toUpperCase())} · ${escapeHtml(secondaryCost)}</div></div>`;
+            const frontierBadge = d.isFrontier ? `<span style="display:inline-block;padding:1px 6px;border-radius:0;font-family:${MONO_FONT};font-size:10px;background:${PALETTE.paretoBg};color:${PALETTE.paretoText};border:1px solid ${PALETTE.paretoBorder};flex-shrink:0;">Pareto</span>` : "";
+            return `<div style="min-width:160px;max-width:100%;line-height:1.35;"><div style="display:flex;flex-wrap:wrap;align-items:center;gap:4px 7px;margin-bottom:6px;"><span style="width:8px;height:8px;border-radius:50%;background:${escapeHtml(d.swatchColor)};display:inline-block;flex-shrink:0;"></span><strong style="font-size:12.5px;color:${PALETTE.ink};">${escapeHtml(d.title)}</strong>${frontierBadge}</div><div style="font-family:${MONO_FONT};font-size:12px;color:${PALETTE.ink};margin-bottom:3px;word-break:break-word;">${d.score.toFixed(1)} pts · ${escapeHtml(primaryCost)}</div><div style="font-family:${MONO_FONT};font-size:10.5px;color:${PALETTE.grey};word-break:break-word;">Esforço ${escapeHtml(String(d.effort).toUpperCase())} · ${escapeHtml(secondaryCost)}</div></div>`;
           }
         },
         xAxis: {
