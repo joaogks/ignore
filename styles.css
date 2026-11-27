@@ -969,6 +969,18 @@ html.has-intro .mag-grid.is-entered .mag-card:active {
 /* ==========================================================================
    RESPONSIVIDADE
    ========================================================================== */
+@media (min-width: 961px) {
+  .mag-body {
+    gap: 16px;
+  }
+
+  .mag-name {
+    font-size: clamp(18px, 1.9vw, 24.5px);
+    letter-spacing: -0.02em;
+    white-space: nowrap;
+  }
+}
+
 @media (max-width: 960px) {
   .mag-wide, .mag-narrow { grid-column: span 6; }
 }
