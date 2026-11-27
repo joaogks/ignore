@@ -1,0 +1,524 @@
+{
+  "channel": {
+    "url": "https://www.youtube.com/channel/UC8xTbDhp3Axrv1qTnb4d5eQ/posts",
+    "avatar_url": "https://yt3.googleusercontent.com/WC-462ztHGCet3JlFHah6Yly9xZoK65oJaQySyLaQPv6l1M3BiiMCoA34NJi9-cYEcdKiWth4A=s900-c-k-c0x00ffffff-no-rj",
+    "local_avatar": "avatar-youtube.jpg"
+  },
+  "games": [
+    {
+      "name": "Incremental Vampire",
+      "type": "game",
+      "is_free": false,
+      "short_description": "Melhore o seu vampiro e sobreviva a runs insanas por floresta, deserto e neve neste &quot;Survivor&quot; Incremental. Enfrente HORDAS de inimigos, empunhe armas vampíricas, derrube chefões e desbloqueie melhorias INSANAS. SE TORNE UM VERDADEIRO BOSS.",
+      "developers": [
+        "LobotoMax"
+      ],
+      "publishers": [
+        "LobotoMax"
+      ],
+      "release_date": {
+        "coming_soon": false,
+        "date": "23/jul./2026"
+      },
+      "genres": [
+        {
+          "id": "4",
+          "description": "Casual"
+        },
+        {
+          "id": "23",
+          "description": "Indie"
+        },
+        {
+          "id": "2",
+          "description": "Estratégia"
+        }
+      ],
+      "categories": [
+        {
+          "id": 2,
+          "description": "Um jogador"
+        },
+        {
+          "id": 22,
+          "description": "Conquistas Steam"
+        },
+        {
+          "id": 28,
+          "description": "Compat. total com controle"
+        },
+        {
+          "id": 68,
+          "description": "Controles de volume independentes"
+        },
+        {
+          "id": 69,
+          "description": "Som estéreo"
+        },
+        {
+          "id": 23,
+          "description": "Nuvem Steam"
+        },
+        {
+          "id": 62,
+          "description": "Compartilhamento em família"
+        }
+      ],
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4910220/40eda5317e9e1288eaa6420c0bf26c5338ecac4a/header.jpg?t=1792793370",
+      "screenshots": [
+        {
+          "id": 0,
+          "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4910220/5acc98931c1c13d6def78a6b7b45c4399473a732/ss_5acc98931c1c13d6def78a6b7b45c4399473a732.600x338.jpg?t=1792793370",
+          "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4910220/5acc98931c1c13d6def78a6b7b45c4399473a732/ss_5acc98931c1c13d6def78a6b7b45c4399473a732.1920x1080.jpg?t=1792793370"
+        },
+        {
+          "id": 1,
+          "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4910220/4ca9bc7b6b423d22288745b35d52210a6c3c9f6f/ss_4ca9bc7b6b423d22288745b35d52210a6c3c9f6f.600x338.jpg?t=1792793370",
+          "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4910220/4ca9bc7b6b423d22288745b35d52210a6c3c9f6f/ss_4ca9bc7b6b423d22288745b35d52210a6c3c9f6f.1920x1080.jpg?t=1792793370"
+        },
+        {
+          "id": 2,
+          "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4910220/b2c014f59b068a8f6d34b2129a6548578d5d58e6/ss_b2c014f59b068a8f6d34b2129a6548578d5d58e6.600x338.jpg?t=1792793370",
+          "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4910220/b2c014f59b068a8f6d34b2129a6548578d5d58e6/ss_b2c014f59b068a8f6d34b2129a6548578d5d58e6.1920x1080.jpg?t=1792793370"
+        },
+        {
+          "id": 3,
+          "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4910220/a8c53a93b2a1f2f236680288228d9d179d875a82/ss_a8c53a93b2a1f2f236680288228d9d179d875a82.600x338.jpg?t=1792793370",
+          "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4910220/a8c53a93b2a1f2f236680288228d9d179d875a82/ss_a8c53a93b2a1f2f236680288228d9d179d875a82.1920x1080.jpg?t=1792793370"
+        },
+        {
+          "id": 4,
+          "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4910220/4e96cc86e2a680539e92ea5eab930ef6fc212271/ss_4e96cc86e2a680539e92ea5eab930ef6fc212271.600x338.jpg?t=1792793370",
+          "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4910220/4e96cc86e2a680539e92ea5eab930ef6fc212271/ss_4e96cc86e2a680539e92ea5eab930ef6fc212271.1920x1080.jpg?t=1792793370"
+        },
+        {
+          "id": 5,
+          "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4910220/48db97ffc7d9a9858e22c682eae806a491853824/ss_48db97ffc7d9a9858e22c682eae806a491853824.600x338.jpg?t=1792793370",
+          "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4910220/48db97ffc7d9a9858e22c682eae806a491853824/ss_48db97ffc7d9a9858e22c682eae806a491853824.1920x1080.jpg?t=1792793370"
+        },
+        {
+          "id": 6,
+          "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4910220/8efcf03d106add221229caf2a0b9da15fe31edd2/ss_8efcf03d106add221229caf2a0b9da15fe31edd2.600x338.jpg?t=1792793370",
+          "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4910220/8efcf03d106add221229caf2a0b9da15fe31edd2/ss_8efcf03d106add221229caf2a0b9da15fe31edd2.1920x1080.jpg?t=1792793370"
+        },
+        {
+          "id": 7,
+          "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4910220/587bd358466d229a6c4bf42d64c941076b87eedd/ss_587bd358466d229a6c4bf42d64c941076b87eedd.600x338.jpg?t=1792793370",
+          "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4910220/587bd358466d229a6c4bf42d64c941076b87eedd/ss_587bd358466d229a6c4bf42d64c941076b87eedd.1920x1080.jpg?t=1792793370"
+        },
+        {
+          "id": 8,
+          "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4910220/32728aea3d0cb65c40d1ed19e6b1113d9555e636/ss_32728aea3d0cb65c40d1ed19e6b1113d9555e636.600x338.jpg?t=1792793370",
+          "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4910220/32728aea3d0cb65c40d1ed19e6b1113d9555e636/ss_32728aea3d0cb65c40d1ed19e6b1113d9555e636.1920x1080.jpg?t=1792793370"
+        },
+        {
+          "id": 9,
+          "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4910220/ed22be9ff843d2826776d513e06b0a38cfa7aefc/ss_ed22be9ff843d2826776d513e06b0a38cfa7aefc.600x338.jpg?t=1792793370",
+          "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4910220/ed22be9ff843d2826776d513e06b0a38cfa7aefc/ss_ed22be9ff843d2826776d513e06b0a38cfa7aefc.1920x1080.jpg?t=1792793370"
+        }
+      ],
+      "appid": 4910220,
+      "steam_url": "https://store.steampowered.com/app/4910220/",
+      "local_assets": [
+        "4910220\\capa.jpg",
+        "4910220\\gameplay-1.jpg",
+        "4910220\\gameplay-2.jpg"
+      ],
+      "errors": []
+    },
+    {
+      "name": "Burnout Runs Demo",
+      "type": "demo",
+      "is_free": true,
+      "short_description": "Roguelite de arrancada. Monte seu carro com peças que quebram as regras, vença os chefes da costa e salve a oficina que te criou. 125 carros, passe de 100 níveis e editor de pintura completo.",
+      "developers": [
+        "Lobotomax"
+      ],
+      "publishers": [
+        "Lobotomax"
+      ],
+      "release_date": {
+        "coming_soon": false,
+        "date": "20/out./2026"
+      },
+      "genres": [
+        {
+          "id": "9",
+          "description": "Corrida"
+        },
+        {
+          "id": "18",
+          "description": "Esportes"
+        }
+      ],
+      "categories": [
+        {
+          "id": 2,
+          "description": "Um jogador"
+        },
+        {
+          "id": 1,
+          "description": "Multijogador"
+        },
+        {
+          "id": 49,
+          "description": "JxJ"
+        },
+        {
+          "id": 10,
+          "description": "Demonstração de jogo"
+        },
+        {
+          "id": 22,
+          "description": "Conquistas Steam"
+        },
+        {
+          "id": 28,
+          "description": "Compat. total com controle"
+        },
+        {
+          "id": 55,
+          "description": "Compat. c/ DUALSHOCK 4"
+        },
+        {
+          "id": 56,
+          "description": "Compat. c/ DUALSHOCK 4"
+        },
+        {
+          "id": 57,
+          "description": "Compat. c/ DualSense"
+        },
+        {
+          "id": 58,
+          "description": "Compat. c/ DualSense"
+        },
+        {
+          "id": 23,
+          "description": "Nuvem Steam"
+        },
+        {
+          "id": 25,
+          "description": "Classificações Steam"
+        }
+      ],
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5432230/ec428776eb8f69b0dadce2cf56e6a7ebe9aeff00/header.jpg?t=1792525580",
+      "screenshots": [
+        {
+          "id": 0,
+          "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5432230/961d7df00fc173850cf2f1443ce01e33df52078c/ss_961d7df00fc173850cf2f1443ce01e33df52078c.600x338.jpg?t=1792525580",
+          "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5432230/961d7df00fc173850cf2f1443ce01e33df52078c/ss_961d7df00fc173850cf2f1443ce01e33df52078c.1920x1080.jpg?t=1792525580"
+        },
+        {
+          "id": 1,
+          "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5432230/4e99f3acab83094325478540b2a03d769fa1dea2/ss_4e99f3acab83094325478540b2a03d769fa1dea2.600x338.jpg?t=1792525580",
+          "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5432230/4e99f3acab83094325478540b2a03d769fa1dea2/ss_4e99f3acab83094325478540b2a03d769fa1dea2.1920x1080.jpg?t=1792525580"
+        },
+        {
+          "id": 2,
+          "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5432230/e0e8a2ffa36462136055635c77999f1baa97d7d5/ss_e0e8a2ffa36462136055635c77999f1baa97d7d5.600x338.jpg?t=1792525580",
+          "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5432230/e0e8a2ffa36462136055635c77999f1baa97d7d5/ss_e0e8a2ffa36462136055635c77999f1baa97d7d5.1920x1080.jpg?t=1792525580"
+        },
+        {
+          "id": 3,
+          "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5432230/63a34a63b0511ca6ff3d6590d1f2424e61a1050b/ss_63a34a63b0511ca6ff3d6590d1f2424e61a1050b.600x338.jpg?t=1792525580",
+          "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5432230/63a34a63b0511ca6ff3d6590d1f2424e61a1050b/ss_63a34a63b0511ca6ff3d6590d1f2424e61a1050b.1920x1080.jpg?t=1792525580"
+        },
+        {
+          "id": 4,
+          "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5432230/362eed4c43d146d7eee906230594b9e10bba7a66/ss_362eed4c43d146d7eee906230594b9e10bba7a66.600x338.jpg?t=1792525580",
+          "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5432230/362eed4c43d146d7eee906230594b9e10bba7a66/ss_362eed4c43d146d7eee906230594b9e10bba7a66.1920x1080.jpg?t=1792525580"
+        },
+        {
+          "id": 5,
+          "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5432230/8d24c1179d15d9fde39814ed45694d44102fa6be/ss_8d24c1179d15d9fde39814ed45694d44102fa6be.600x338.jpg?t=1792525580",
+          "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5432230/8d24c1179d15d9fde39814ed45694d44102fa6be/ss_8d24c1179d15d9fde39814ed45694d44102fa6be.1920x1080.jpg?t=1792525580"
+        },
+        {
+          "id": 6,
+          "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5432230/33cc0774362779dc24a21141e926907ead7d7397/ss_33cc0774362779dc24a21141e926907ead7d7397.600x338.jpg?t=1792525580",
+          "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5432230/33cc0774362779dc24a21141e926907ead7d7397/ss_33cc0774362779dc24a21141e926907ead7d7397.1920x1080.jpg?t=1792525580"
+        },
+        {
+          "id": 7,
+          "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5432230/55164a523fb2cd60feae11838fb682986fa92366/ss_55164a523fb2cd60feae11838fb682986fa92366.600x338.jpg?t=1792525580",
+          "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5432230/55164a523fb2cd60feae11838fb682986fa92366/ss_55164a523fb2cd60feae11838fb682986fa92366.1920x1080.jpg?t=1792525580"
+        },
+        {
+          "id": 8,
+          "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5432230/b9e037d41e4f9db49e38379a7f54cb485769a60e/ss_b9e037d41e4f9db49e38379a7f54cb485769a60e.600x338.jpg?t=1792525580",
+          "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5432230/b9e037d41e4f9db49e38379a7f54cb485769a60e/ss_b9e037d41e4f9db49e38379a7f54cb485769a60e.1920x1080.jpg?t=1792525580"
+        },
+        {
+          "id": 9,
+          "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5432230/88e38e6834e9c331911c5381b97afde36058fce1/ss_88e38e6834e9c331911c5381b97afde36058fce1.600x338.jpg?t=1792525580",
+          "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5432230/88e38e6834e9c331911c5381b97afde36058fce1/ss_88e38e6834e9c331911c5381b97afde36058fce1.1920x1080.jpg?t=1792525580"
+        },
+        {
+          "id": 10,
+          "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5432230/22bb0f8c93be9ee2fcaf046010e6deb37d83aae6/ss_22bb0f8c93be9ee2fcaf046010e6deb37d83aae6.600x338.jpg?t=1792525580",
+          "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5432230/22bb0f8c93be9ee2fcaf046010e6deb37d83aae6/ss_22bb0f8c93be9ee2fcaf046010e6deb37d83aae6.1920x1080.jpg?t=1792525580"
+        },
+        {
+          "id": 11,
+          "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5432230/27d43ec356dddb882ee773f630eda7bc37c94302/ss_27d43ec356dddb882ee773f630eda7bc37c94302.600x338.jpg?t=1792525580",
+          "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5432230/27d43ec356dddb882ee773f630eda7bc37c94302/ss_27d43ec356dddb882ee773f630eda7bc37c94302.1920x1080.jpg?t=1792525580"
+        },
+        {
+          "id": 12,
+          "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5432230/393b9b72d14020ba1f906d62769506f77f36e06c/ss_393b9b72d14020ba1f906d62769506f77f36e06c.600x338.jpg?t=1792525580",
+          "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5432230/393b9b72d14020ba1f906d62769506f77f36e06c/ss_393b9b72d14020ba1f906d62769506f77f36e06c.1920x1080.jpg?t=1792525580"
+        },
+        {
+          "id": 13,
+          "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5432230/029a0fe38c4ed96f9fe8cbdd279a65c230beea5f/ss_029a0fe38c4ed96f9fe8cbdd279a65c230beea5f.600x338.jpg?t=1792525580",
+          "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5432230/029a0fe38c4ed96f9fe8cbdd279a65c230beea5f/ss_029a0fe38c4ed96f9fe8cbdd279a65c230beea5f.1920x1080.jpg?t=1792525580"
+        },
+        {
+          "id": 14,
+          "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5432230/32c1bef07fe468116ad812c3303e2d21b8e58290/ss_32c1bef07fe468116ad812c3303e2d21b8e58290.600x338.jpg?t=1792525580",
+          "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5432230/32c1bef07fe468116ad812c3303e2d21b8e58290/ss_32c1bef07fe468116ad812c3303e2d21b8e58290.1920x1080.jpg?t=1792525580"
+        },
+        {
+          "id": 15,
+          "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5432230/88c91144893f6e3d902f5c6219dfedd71c29b908/ss_88c91144893f6e3d902f5c6219dfedd71c29b908.600x338.jpg?t=1792525580",
+          "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5432230/88c91144893f6e3d902f5c6219dfedd71c29b908/ss_88c91144893f6e3d902f5c6219dfedd71c29b908.1920x1080.jpg?t=1792525580"
+        }
+      ],
+      "appid": 5432230,
+      "steam_url": "https://store.steampowered.com/app/5432230/",
+      "local_assets": [
+        "5432230\\capa.jpg",
+        "5432230\\gameplay-1.jpg",
+        "5432230\\gameplay-2.jpg"
+      ],
+      "errors": []
+    },
+    {
+      "name": "Cinder Divide",
+      "type": "game",
+      "is_free": false,
+      "short_description": "Shooter de horda em primeira pessoa com co-op para até 4. Atravesse uma zona de exclusão tomada pela névoa, acumule upgrades em builds insanas e vença os chefes de cada fase.",
+      "developers": [
+        "Lobotomax"
+      ],
+      "publishers": [
+        "Lobotomax"
+      ],
+      "release_date": {
+        "coming_soon": true,
+        "date": "Em breve"
+      },
+      "genres": [
+        {
+          "id": "1",
+          "description": "Ação"
+        }
+      ],
+      "categories": [
+        {
+          "id": 2,
+          "description": "Um jogador"
+        },
+        {
+          "id": 1,
+          "description": "Multijogador"
+        },
+        {
+          "id": 9,
+          "description": "Cooperativo"
+        },
+        {
+          "id": 22,
+          "description": "Conquistas Steam"
+        },
+        {
+          "id": 28,
+          "description": "Compat. total com controle"
+        },
+        {
+          "id": 59,
+          "description": "Compat. c/ API da Entrada Steam"
+        },
+        {
+          "id": 69,
+          "description": "Som estéreo"
+        },
+        {
+          "id": 23,
+          "description": "Nuvem Steam"
+        },
+        {
+          "id": 62,
+          "description": "Compartilhamento em família"
+        }
+      ],
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5363530/6abfd7659dbbf08ca71c4c82b629ec75d589927d/header.jpg?t=1794287445",
+      "screenshots": [
+        {
+          "id": 0,
+          "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5363530/4c8c364656681652dfd86e77986da497845b2137/ss_4c8c364656681652dfd86e77986da497845b2137.600x338.jpg?t=1794287445",
+          "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5363530/4c8c364656681652dfd86e77986da497845b2137/ss_4c8c364656681652dfd86e77986da497845b2137.1920x1080.jpg?t=1794287445"
+        },
+        {
+          "id": 1,
+          "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5363530/f0e96285efb56c2fd755a19e6198ef3b3bdbf71f/ss_f0e96285efb56c2fd755a19e6198ef3b3bdbf71f.600x338.jpg?t=1794287445",
+          "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5363530/f0e96285efb56c2fd755a19e6198ef3b3bdbf71f/ss_f0e96285efb56c2fd755a19e6198ef3b3bdbf71f.1920x1080.jpg?t=1794287445"
+        },
+        {
+          "id": 2,
+          "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5363530/8baf20c4411bbda3d9f6d172c68dd7713757dea3/ss_8baf20c4411bbda3d9f6d172c68dd7713757dea3.600x338.jpg?t=1794287445",
+          "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5363530/8baf20c4411bbda3d9f6d172c68dd7713757dea3/ss_8baf20c4411bbda3d9f6d172c68dd7713757dea3.1920x1080.jpg?t=1794287445"
+        },
+        {
+          "id": 3,
+          "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5363530/016b89b158c638fa13e588f17958240f5186abf5/ss_016b89b158c638fa13e588f17958240f5186abf5.600x338.jpg?t=1794287445",
+          "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5363530/016b89b158c638fa13e588f17958240f5186abf5/ss_016b89b158c638fa13e588f17958240f5186abf5.1920x1080.jpg?t=1794287445"
+        },
+        {
+          "id": 4,
+          "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5363530/6bee6cef261f1732e660e38d3471502c2aea7ea6/ss_6bee6cef261f1732e660e38d3471502c2aea7ea6.600x338.jpg?t=1794287445",
+          "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5363530/6bee6cef261f1732e660e38d3471502c2aea7ea6/ss_6bee6cef261f1732e660e38d3471502c2aea7ea6.1920x1080.jpg?t=1794287445"
+        }
+      ],
+      "appid": 5363530,
+      "steam_url": "https://store.steampowered.com/app/5363530/",
+      "local_assets": [
+        "5363530\\capa.jpg",
+        "5363530\\gameplay-1.jpg",
+        "5363530\\gameplay-2.jpg"
+      ],
+      "errors": []
+    },
+    {
+      "name": "Ganja Ricochet: Cut Kush. Make Cash.",
+      "type": "game",
+      "is_free": false,
+      "short_description": "Corte Kush, faça as tesouras ricochetearem e fique rico neste caótico pinball-pachinko 3D! Desbloqueie 12 tesouras, 12 plantas, 12 vasos, muitas melhorias e enfrente 4 Plantas-Chefe.",
+      "developers": [
+        "LobotoMax"
+      ],
+      "publishers": [
+        " LobotoMax"
+      ],
+      "release_date": {
+        "coming_soon": true,
+        "date": "3/mar./2027"
+      },
+      "genres": [
+        {
+          "id": "4",
+          "description": "Casual"
+        },
+        {
+          "id": "23",
+          "description": "Indie"
+        },
+        {
+          "id": "28",
+          "description": "Simulação"
+        },
+        {
+          "id": "2",
+          "description": "Estratégia"
+        }
+      ],
+      "categories": [
+        {
+          "id": 2,
+          "description": "Um jogador"
+        },
+        {
+          "id": 22,
+          "description": "Conquistas Steam"
+        },
+        {
+          "id": 28,
+          "description": "Compat. total com controle"
+        },
+        {
+          "id": 67,
+          "description": "Conforto de câmera"
+        },
+        {
+          "id": 76,
+          "description": "Opção apenas com mouse"
+        },
+        {
+          "id": 80,
+          "description": "#category_playable_at_your_own_pace"
+        },
+        {
+          "id": 74,
+          "description": "Jogável sem precisar de reação rápida"
+        },
+        {
+          "id": 79,
+          "description": "Salvamento a qualquer momento"
+        },
+        {
+          "id": 59,
+          "description": "Compat. c/ API da Entrada Steam"
+        },
+        {
+          "id": 23,
+          "description": "Nuvem Steam"
+        },
+        {
+          "id": 62,
+          "description": "Compartilhamento em família"
+        }
+      ],
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5192300/e7d4004ab8d41a5601ec6ca980b165aa68519205/header.jpg?t=1793390332",
+      "screenshots": [
+        {
+          "id": 0,
+          "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5192300/bbe81be0c1352b90c84ceac6429a7c1d408a6876/ss_bbe81be0c1352b90c84ceac6429a7c1d408a6876.600x338.jpg?t=1793390332",
+          "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5192300/bbe81be0c1352b90c84ceac6429a7c1d408a6876/ss_bbe81be0c1352b90c84ceac6429a7c1d408a6876.1920x1080.jpg?t=1793390332"
+        },
+        {
+          "id": 1,
+          "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5192300/3bef040e47997acfdf4f9504c1ad18dfc220e92f/ss_3bef040e47997acfdf4f9504c1ad18dfc220e92f.600x338.jpg?t=1793390332",
+          "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5192300/3bef040e47997acfdf4f9504c1ad18dfc220e92f/ss_3bef040e47997acfdf4f9504c1ad18dfc220e92f.1920x1080.jpg?t=1793390332"
+        },
+        {
+          "id": 2,
+          "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5192300/50ee3860853a40f9c195e598c4fb88aae072b01f/ss_50ee3860853a40f9c195e598c4fb88aae072b01f.600x338.jpg?t=1793390332",
+          "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5192300/50ee3860853a40f9c195e598c4fb88aae072b01f/ss_50ee3860853a40f9c195e598c4fb88aae072b01f.1920x1080.jpg?t=1793390332"
+        },
+        {
+          "id": 3,
+          "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5192300/01bc4b2fb2287efbf1c43e25b10a54d0f51de6c6/ss_01bc4b2fb2287efbf1c43e25b10a54d0f51de6c6.600x338.jpg?t=1793390332",
+          "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5192300/01bc4b2fb2287efbf1c43e25b10a54d0f51de6c6/ss_01bc4b2fb2287efbf1c43e25b10a54d0f51de6c6.1920x1080.jpg?t=1793390332"
+        },
+        {
+          "id": 4,
+          "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5192300/76a6466978f316aecb0fe828540a7b19edf58c81/ss_76a6466978f316aecb0fe828540a7b19edf58c81.600x338.jpg?t=1793390332",
+          "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5192300/76a6466978f316aecb0fe828540a7b19edf58c81/ss_76a6466978f316aecb0fe828540a7b19edf58c81.1920x1080.jpg?t=1793390332"
+        },
+        {
+          "id": 5,
+          "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5192300/f68bf13280e5c705ac32a7c0bb89d9b107cd0a76/ss_f68bf13280e5c705ac32a7c0bb89d9b107cd0a76.600x338.jpg?t=1793390332",
+          "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5192300/f68bf13280e5c705ac32a7c0bb89d9b107cd0a76/ss_f68bf13280e5c705ac32a7c0bb89d9b107cd0a76.1920x1080.jpg?t=1793390332"
+        },
+        {
+          "id": 6,
+          "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5192300/9e021a2ebe760701070544e6f0533bea1184d540/ss_9e021a2ebe760701070544e6f0533bea1184d540.600x338.jpg?t=1793390332",
+          "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5192300/9e021a2ebe760701070544e6f0533bea1184d540/ss_9e021a2ebe760701070544e6f0533bea1184d540.1920x1080.jpg?t=1793390332"
+        },
+        {
+          "id": 7,
+          "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5192300/14c600384645a6d10504b26f3ba582d609188b85/ss_14c600384645a6d10504b26f3ba582d609188b85.600x338.jpg?t=1793390332",
+          "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5192300/14c600384645a6d10504b26f3ba582d609188b85/ss_14c600384645a6d10504b26f3ba582d609188b85.1920x1080.jpg?t=1793390332"
+        }
+      ],
+      "appid": 5192300,
+      "steam_url": "https://store.steampowered.com/app/5192300/",
+      "local_assets": [
+        "5192300\\capa.jpg",
+        "5192300\\gameplay-1.jpg",
+        "5192300\\gameplay-2.jpg"
+      ],
+      "errors": []
+    }
+  ]
+}
