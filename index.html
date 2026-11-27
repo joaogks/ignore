@@ -1,0 +1,249 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Benchmark de IA &amp; Jogos · @joaoignore</title>
+  <meta name="description" content="Benchmark de IA com custo por tarefa em BRL/USD, canal @joaoignore no YouTube e jogos indie na Steam.">
+  <meta name="theme-color" content="#2563EB">
+  <link rel="canonical" href="https://joaogks.github.io/ignore/">
+
+  <!-- Favicons & Web App Manifest -->
+  <link rel="icon" type="image/svg+xml" href="favicon.svg">
+  <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+  <link rel="icon" href="favicon.ico" sizes="any">
+  <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+  <link rel="manifest" href="manifest.webmanifest">
+
+  <!-- Open Graph / Compartilhamento Social -->
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="pt_BR">
+  <meta property="og:site_name" content="@joaoignore">
+  <meta property="og:title" content="Benchmark de IA &amp; Jogos · @joaoignore">
+  <meta property="og:description" content="Benchmark interativo de modelos de IA em BRL/USD, canal @joaoignore e jogos indie disponíveis na Steam.">
+  <meta property="og:url" content="https://joaogks.github.io/ignore/">
+  <meta property="og:image" content="https://joaogks.github.io/ignore/assets/og-cover.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="Gráfico Benchmark de IA estilo Arcade Pop por @joaoignore">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Benchmark de IA &amp; Jogos · @joaoignore">
+  <meta name="twitter:description" content="Benchmark interativo de IA em BRL/USD e jogos indie de @joaoignore.">
+  <meta name="twitter:image" content="https://joaogks.github.io/ignore/assets/og-cover.png">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,500;0,600;0,700;1,700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <script>
+    if (!window.matchMedia("(prefers-reduced-motion: reduce)").matches) {
+      document.documentElement.classList.add("has-intro");
+    }
+  </script>
+
+  <link rel="stylesheet" href="styles.css">
+
+  <script src="https://cdn.jsdelivr.net/npm/echarts@6.1.0/dist/echarts.min.js" defer></script>
+  <script src="benchmark-data.js" defer></script>
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <!-- ATO 1: BENCHMARK -->
+  <section id="benchmark" class="paper-act">
+    <div class="act-inner">
+      <header class="paper-head" data-enter>
+        <div>
+          <h1 class="paper-title">
+            <span class="reveal-mask"><span class="reveal-line">Benchmark <em>de IA</em></span></span>
+          </h1>
+          <p class="paper-subtitle">Custo estimado por tarefa via assinatura.</p>
+        </div>
+
+        <div class="paper-controls">
+          <div class="currency-switch" role="group" aria-label="Selecionar moeda do gráfico" data-active="BRL">
+            <button type="button" class="currency-btn is-active" data-currency="BRL" aria-pressed="true">BRL (R$)</button>
+            <button type="button" class="currency-btn" data-currency="USD" aria-pressed="false">USD ($)</button>
+          </div>
+
+          <div class="rate-pill" title="Cotação USD para BRL usada na conversão">
+            <span class="rate-badge" id="rate-status">BUSCANDO</span>
+            <label for="rate-input" class="rate-prefix">1 USD = R$</label>
+            <input id="rate-input" class="rate-input" type="text" inputmode="decimal" value="5,80" data-animate-rate aria-label="Valor manual da cotação USD para BRL">
+            <button type="button" id="rate-reset" class="rate-reset-btn" title="Restaurar cotação ao vivo" aria-label="Restaurar cotação ao vivo" hidden>
+              <svg class="icon-svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="square" aria-hidden="true">
+                <polyline points="23 4 23 10 17 10"></polyline>
+                <path d="M20.49 15a9 9 0 1 1-2.12-9.36L23 10"></path>
+              </svg>
+            </button>
+          </div>
+        </div>
+      </header>
+
+      <div class="paper-toolbar" data-enter>
+        <div class="filter-group" role="group" aria-label="Filtrar por família de modelo">
+          <button type="button" class="filter-btn is-active" data-family="all" aria-pressed="true">Todos</button>
+          <button type="button" class="filter-btn" data-family="claude" aria-pressed="false">
+            <span class="dot dot-claude" aria-hidden="true"></span>Claude
+          </button>
+          <button type="button" class="filter-btn" data-family="gemini" aria-pressed="false">
+            <span class="dot dot-gemini" aria-hidden="true"></span>Gemini
+          </button>
+          <button type="button" class="filter-btn" data-family="gpt" aria-pressed="false">
+            <span class="dot dot-gpt" aria-hidden="true"></span>GPT
+          </button>
+          <button type="button" class="filter-btn" data-family="others" aria-pressed="false">
+            <span class="dot dot-grok" aria-hidden="true"></span>DeepSeek / Grok / GLM
+          </button>
+        </div>
+
+        <div class="toolbar-right">
+          <button type="button" id="clear-pins" class="clear-pins-btn" hidden>
+            <span>Limpar fixados (0)</span>
+          </button>
+          <button type="button" id="pareto-toggle" class="pareto-btn" aria-pressed="false">
+            <span class="pareto-box" aria-hidden="true"></span>
+            <span>Apenas Fronteira de Pareto</span>
+          </button>
+        </div>
+      </div>
+
+      <div class="paper-sheet" data-enter>
+        <div id="benchmark-chart" class="benchmark-chart" role="img" aria-label="Gráfico Score vs custo por tarefa">
+          <noscript>
+            <div class="chart-fallback">Ative o JavaScript para visualizar o gráfico interativo de benchmark.</div>
+          </noscript>
+        </div>
+      </div>
+
+      <div class="paper-footer" data-enter>
+        <ul class="chart-legend" aria-label="Legenda das famílias de modelos">
+          <li><span class="dot dot-claude"></span>Claude</li>
+          <li><span class="dot dot-gemini"></span>Gemini</li>
+          <li><span class="dot dot-gpt"></span>GPT</li>
+          <li><span class="dot dot-deepseek"></span>DeepSeek</li>
+          <li><span class="dot dot-grok"></span>Grok</li>
+          <li><span class="dot dot-glm"></span>GLM</li>
+          <li><span class="legend-line"></span>Fronteira de Pareto</li>
+        </ul>
+        <div class="chart-credit">
+          Clique nos pontos para fixar · Dados originais: <a href="https://mypriors.com" target="_blank" rel="noopener noreferrer">mypriors.com</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ATO 2: CANAL YOUTUBE -->
+  <section id="canal" class="klein-act" data-enter aria-label="Perfil do canal no YouTube">
+    <div class="act-inner klein-row">
+      <div class="klein-left">
+        <img src="foto-perfil.png" alt="Avatar do canal joão ignore não existe mais" class="klein-avatar" width="76" height="76">
+        <div class="klein-info">
+          <h2 class="klein-name">joão ignore não existe mais</h2>
+          <span class="klein-handle">@joaoignore</span>
+        </div>
+      </div>
+
+      <a href="https://www.youtube.com/@joaoignore" target="_blank" rel="noopener noreferrer" class="klein-btn">
+        <span>Acessar canal</span>
+        <span aria-hidden="true">↗</span>
+      </a>
+    </div>
+  </section>
+
+  <!-- ATO 3: MEUS JOGOS (ASSIMÉTRICO + GAME SELECT) -->
+  <section id="jogos" class="gallery-act">
+    <canvas id="bg-canvas-gallery" class="bg-canvas" aria-hidden="true"></canvas>
+    <div class="act-inner">
+      <h2 class="gallery-title" data-enter>
+        <span class="reveal-mask"><span class="reveal-line">Meus <em>Jogos</em></span></span>
+      </h2>
+
+      <div class="mag-grid" data-enter data-stagger-step="115">
+        <a href="https://store.steampowered.com/app/5363530/Cinder_Divide/?curator_clanid=46188356" target="_blank" rel="noopener noreferrer" class="mag-card mag-wide" data-stagger-item data-stage="1">
+          <span class="mag-corner tl" aria-hidden="true"></span>
+          <span class="mag-corner tr" aria-hidden="true"></span>
+          <span class="mag-corner bl" aria-hidden="true"></span>
+          <span class="mag-corner br" aria-hidden="true"></span>
+          <div class="mag-media">
+            <img src="assets/cinder-divide.jpg" alt="Capa de Cinder Divide" class="is-top" width="616" height="353" loading="lazy" decoding="async">
+          </div>
+          <div class="mag-rule" aria-hidden="true"></div>
+          <div class="mag-body">
+            <span class="mag-num" data-count-to="1" data-pad="2">01</span>
+            <div class="mag-content">
+              <div class="mag-top-meta">
+                <span class="mag-badge">STEAM</span>
+                <span class="mag-cta"><span class="mag-cursor" aria-hidden="true">▶</span> Ver na Steam ↗</span>
+              </div>
+              <h3 class="mag-name">Cinder Divide</h3>
+            </div>
+          </div>
+        </a>
+
+        <a href="https://store.steampowered.com/app/4910220/Incremental_Vampire/?curator_clanid=46188356" target="_blank" rel="noopener noreferrer" class="mag-card mag-narrow" data-stagger-item data-stage="2">
+          <span class="mag-corner tl" aria-hidden="true"></span>
+          <span class="mag-corner tr" aria-hidden="true"></span>
+          <span class="mag-corner bl" aria-hidden="true"></span>
+          <span class="mag-corner br" aria-hidden="true"></span>
+          <div class="mag-media">
+            <img src="assets/incremental-vampire.jpg" alt="Capa de Incremental Vampire" width="616" height="353" loading="lazy" decoding="async">
+          </div>
+          <div class="mag-rule" aria-hidden="true"></div>
+          <div class="mag-body">
+            <span class="mag-num" data-count-to="2" data-pad="2">02</span>
+            <div class="mag-content">
+              <div class="mag-top-meta">
+                <span class="mag-badge">STEAM</span>
+                <span class="mag-cta"><span class="mag-cursor" aria-hidden="true">▶</span> Ver na Steam ↗</span>
+              </div>
+              <h3 class="mag-name">Incremental Vampire</h3>
+            </div>
+          </div>
+        </a>
+
+        <a href="https://store.steampowered.com/app/5432230/Burnout_Runs_Demo/?curator_clanid=46188356" target="_blank" rel="noopener noreferrer" class="mag-card mag-narrow" data-stagger-item data-stage="3">
+          <span class="mag-corner tl" aria-hidden="true"></span>
+          <span class="mag-corner tr" aria-hidden="true"></span>
+          <span class="mag-corner bl" aria-hidden="true"></span>
+          <span class="mag-corner br" aria-hidden="true"></span>
+          <div class="mag-media">
+            <img src="assets/burnout-runs-demo.jpg" alt="Capa de Burnout Runs Demo" width="616" height="353" loading="lazy" decoding="async">
+          </div>
+          <div class="mag-rule" aria-hidden="true"></div>
+          <div class="mag-body">
+            <span class="mag-num" data-count-to="3" data-pad="2">03</span>
+            <div class="mag-content">
+              <div class="mag-top-meta">
+                <span class="mag-badge">STEAM</span>
+                <span class="mag-cta"><span class="mag-cursor" aria-hidden="true">▶</span> Ver na Steam ↗</span>
+              </div>
+              <h3 class="mag-name">Burnout Runs Demo</h3>
+            </div>
+          </div>
+        </a>
+
+        <a href="https://store.steampowered.com/app/5192300/Ganja_Ricochet_Cut_Kush_Make_Cash/?curator_clanid=46188356" target="_blank" rel="noopener noreferrer" class="mag-card mag-wide" data-stagger-item data-stage="4">
+          <span class="mag-corner tl" aria-hidden="true"></span>
+          <span class="mag-corner tr" aria-hidden="true"></span>
+          <span class="mag-corner bl" aria-hidden="true"></span>
+          <span class="mag-corner br" aria-hidden="true"></span>
+          <div class="mag-media">
+            <img src="assets/ganja-ricochet.jpg" alt="Capa de Ganja Ricochet: Cut Kush. Make Cash." width="616" height="353" loading="lazy" decoding="async">
+          </div>
+          <div class="mag-rule" aria-hidden="true"></div>
+          <div class="mag-body">
+            <span class="mag-num" data-count-to="4" data-pad="2">04</span>
+            <div class="mag-content">
+              <div class="mag-top-meta">
+                <span class="mag-badge">STEAM</span>
+                <span class="mag-cta"><span class="mag-cursor" aria-hidden="true">▶</span> Ver na Steam ↗</span>
+              </div>
+              <h3 class="mag-name">Ganja Ricochet: Cut Kush. Make Cash.</h3>
+            </div>
+          </div>
+        </a>
+      </div>
+    </div>
+  </section>
+</body>
+</html>

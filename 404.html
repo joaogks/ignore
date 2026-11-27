@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Página não encontrada · @joaoignore</title>
+  <meta name="theme-color" content="#2563EB">
+  <link rel="icon" type="image/svg+xml" href="favicon.svg">
+  <link rel="icon" href="favicon.ico" sizes="any">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,600;0,700;1,700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@500;700&display=swap" rel="stylesheet">
+  <style>
+    *, *::before, *::after { box-sizing: border-box; }
+    html {
+      margin: 0;
+      min-height: 100%;
+      background-color: #F5F7FA;
+      background-image:
+        radial-gradient(rgba(37, 99, 235, 0.17) 1.25px, transparent 1.25px),
+        linear-gradient(to right, rgba(15, 23, 42, 0.05) 1px, transparent 1px),
+        linear-gradient(to bottom, rgba(15, 23, 42, 0.05) 1px, transparent 1px);
+      background-size: 32px 32px, 32px 32px, 32px 32px;
+      color: #11131A;
+      font-family: "Inter", system-ui, sans-serif;
+    }
+    body {
+      margin: 0;
+      min-height: 100vh;
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 24px;
+    }
+    .nf-card {
+      max-width: 540px;
+      width: 100%;
+      background: #FFFFFF;
+      border: 2px solid #11131A;
+      box-shadow: 6px 6px 0 #11131A;
+      padding: 32px 28px;
+    }
+    .nf-tag {
+      display: inline-block;
+      padding: 3px 8px;
+      background: #FF4D2E;
+      color: #FFFFFF;
+      font-family: "JetBrains Mono", monospace;
+      font-size: 11px;
+      font-weight: 700;
+      margin-bottom: 14px;
+    }
+    .nf-title {
+      margin: 0 0 10px;
+      font-family: "Chakra Petch", sans-serif;
+      font-size: clamp(32px, 6vw, 48px);
+      font-weight: 700;
+      line-height: 1;
+      letter-spacing: -0.02em;
+    }
+    .nf-title em {
+      font-style: italic;
+      color: #2563EB;
+    }
+    .nf-text {
+      margin: 0 0 24px;
+      font-size: 15px;
+      line-height: 1.5;
+      color: #475569;
+    }
+    .nf-btn {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      padding: 12px 20px;
+      background: #2563EB;
+      color: #FFFFFF;
+      text-decoration: none;
+      border: 2px solid #11131A;
+      box-shadow: 4px 4px 0 #11131A;
+      font-family: "JetBrains Mono", monospace;
+      font-size: 12.5px;
+      font-weight: 700;
+    }
+    .nf-btn:hover {
+      background: #11131A;
+      transform: translate(-1px, -1px);
+      box-shadow: 5px 5px 0 #2563EB;
+    }
+    .nf-btn:active {
+      transform: translate(3px, 3px);
+      box-shadow: none;
+    }
+  </style>
+</head>
+<body>
+  <main class="nf-card">
+    <span class="nf-tag">ERRO 404</span>
+    <h1 class="nf-title">Fase <em>não encontrada</em></h1>
+    <p class="nf-text">Esse endereço não existe por aqui. Volte para a página inicial para conferir o Benchmark de IA, o canal @joaoignore e os jogos na Steam.</p>
+    <a id="nf-home" href="./" class="nf-btn">Voltar para o início ↗</a>
+  </main>
+  <script>
+    if (location.pathname.indexOf("/ignore/") === 0) {
+      document.getElementById("nf-home").href = "/ignore/";
+    }
+  </script>
+</body>
+</html>

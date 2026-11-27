@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="512" height="512" shape-rendering="geometricPrecision">
+  <!-- Chassi Arcade Pop escuro com moldura Azul Elétrico -->
+  <rect x="0" y="0" width="64" height="64" fill="#2563EB"/>
+  <rect x="4" y="4" width="56" height="56" fill="#11131A"/>
+
+  <!-- Cantoneiras sutis estilo Game Select -->
+  <path d="M8 14 V8 H14" fill="none" stroke="#38BDF8" stroke-width="2" stroke-linecap="square"/>
+  <path d="M50 56 H56 V50" fill="none" stroke="#4ADE80" stroke-width="2" stroke-linecap="square"/>
+
+  <!-- Letra 'i' geométrica (@joaoignore) + ponto Laranja Arcade -->
+  <rect x="14" y="13" width="11" height="10" fill="#FF4D2E"/>
+  <polygon points="14,27 25,27 25,51 14,51" fill="#F8FAFC"/>
+
+  <!-- Mini fronteira de Pareto ascendente (Benchmark de IA) -->
+  <polyline points="32,46 41,34 50,20" fill="none" stroke="#38BDF8" stroke-width="3.2" stroke-linecap="square" stroke-linejoin="miter"/>
+  <rect x="29" y="43" width="6" height="6" fill="#F8FAFC" stroke="#2563EB" stroke-width="1.5"/>
+  <rect x="38" y="31" width="6" height="6" fill="#FACC15" stroke="#11131A" stroke-width="1"/>
+  <rect x="46.5" y="16" width="7" height="7" fill="#4ADE80" stroke="#11131A" stroke-width="1.2"/>
+</svg>
